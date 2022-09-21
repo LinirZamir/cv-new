@@ -1,0 +1,25 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'resume_cv.blg'
+[99] biber-MSWIN64:340> INFO - === 
+[129] Biber.pm:418> INFO - Reading 'resume_cv.bcf'
+[234] Biber.pm:978> INFO - Found 0 citekeys in bib section 0
+[234] Biber.pm:978> INFO - Found 4 citekeys in bib section 1
+[234] Biber.pm:978> INFO - Found 0 citekeys in bib section 0
+[235] Biber.pm:978> INFO - Found 3 citekeys in bib section 2
+[235] Biber.pm:978> INFO - Found 0 citekeys in bib section 0
+[258] Biber.pm:4401> INFO - Processing section 1
+[269] Biber.pm:4592> INFO - Looking for bibtex file 'publications.bib' for section 1
+[309] bibtex.pm:1713> INFO - LaTeX decoding ...
+[322] bibtex.pm:1518> INFO - Found BibTeX data source 'publications.bib'
+[372] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[373] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[373] Biber.pm:4221> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[373] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[381] Biber.pm:4401> INFO - Processing section 2
+[381] Biber.pm:4592> INFO - Looking for bibtex file 'publications.bib' for section 2
+[419] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[419] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[419] Biber.pm:4221> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[419] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[423] bbl.pm:654> INFO - Writing 'resume_cv.bbl' with encoding 'UTF-8'
+[426] bbl.pm:757> INFO - Output to resume_cv.bbl

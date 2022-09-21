@@ -1,0 +1,115 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awesome Resume/CV
+% XeLaTeX Template
+% Version 1.3 (30/3/2020)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Claud D. Park (posquit0.bj@gmail.com) with modifications by 
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template must be compiled with XeLaTeX, the below lines will ensure this
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+
+\geometry{left=1.5cm, top=1.5cm, right=1.5cm, bottom=2cm, footskip=.5cm} % Configure page margins with geometry
+
+\fontdir[fonts/] % Specify the location of the included fonts
+
+% Color for highlights
+\colorlet{awesome}{awesome-red} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+%\definecolor{awesome}{HTML}{000000} % Uncomment if you would like to specify your own color
+
+% Colors for text - uncomment and modify
+\definecolor{darktext}{HTML}{000000}
+\definecolor{text}{HTML}{000000}
+\definecolor{graytext}{HTML}{000000}
+\definecolor{lighttext}{HTML}{000000}
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%----------------------------------------------------------------------------------------
+
+\name{Linir}{Zamir}
+\address{602 NW 44th TER, Deerfield Beach, FL, 33442, USA}
+\mobile{561-562-3991}
+
+\email{linir@linirzamir.com	}
+\homepage{linirzamir.com}
+\github{LinirZamir}
+\linkedin{linirzamir}
+\googlescholar{rp8gc_0AAAAJ}{Linir Zamir}
+%\skype{skypeid}
+%\stackoverflow{SOid}{SOname}
+%\twitter{@twit}
+%\linkedin{linkedin name}
+%\reddit{reddit account}
+%\xing{xing name}
+%\extrainfo{test} % Other text you want to include on this line
+
+\position{Blockchain Researcher{\enskip\cdotp\enskip}Software Engineer} % Your expertise/fields
+\quote{``The best way to predict the future is to create it."} % A quote or statement
+
+\makecvfooter{\today}{Linir Zamir~~~·~~~Résumé}{\thepage} % Specify the letter footer with 3 arguments: (<left>, <center>, <right>), leave any of these blank if they are not needed
+
+%-------------------------------------------------------------------------------
+%  BIBLIOGRAPHY
+%-------------------------------------------------------------------------------
+\bibliography{publications.bib}
+
+% hook for counting the number of entries
+% inside each refsection in biblatex
+% src: https://tex.stackexchange.com/a/495997/49520
+\makeatletter
+\AtDataInput{%
+	\ifltxcounter{datacount@\the\c@refsection}
+	{}
+	{\newcounter{datacount@\the\c@refsection}}%
+	\stepcounter{datacount@\the\c@refsection}}
+
+\newcommand*{\refsectionbibcount}{\arabic{datacount@\the\c@refsection}}
+\makeatother
+
+% for formatting the heading using our style
+\defbibheading{subbibnumbered}[\refname]{\cvsubsection{#1}}
+
+%-------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvheader % Print the header
+
+%----------------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%----------------------------------------------------------------------------------------
+
+\input{cv-sections/education.tex}
+\input{cv-sections/skills.tex}
+\input{cv-sections/experience.tex}
+
+%\newpage % Force a new page for looks
+
+\input{cv-sections/publications.tex}
+\input{cv-sections/honors.tex}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

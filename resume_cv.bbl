@@ -1,0 +1,276 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{zamir2022localized}{article}{}
+      \name{author}{2}{}{%
+        {{hash=dc67d79b84dc516d1e01070512a2d4b9}{%
+           family={Zamir},
+           familyi={Z\bibinitperiod},
+           given={Linir},
+           giveni={L\bibinitperiod}}}%
+        {{hash=356725914d00c494bfed52b208e0b9b5}{%
+           family={Nojoumian},
+           familyi={N\bibinitperiod},
+           given={Mehrdad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{8f5acff431aef40976a1206339cdaa47}
+      \strng{fullhash}{8f5acff431aef40976a1206339cdaa47}
+      \strng{bibnamehash}{8f5acff431aef40976a1206339cdaa47}
+      \strng{authorbibnamehash}{8f5acff431aef40976a1206339cdaa47}
+      \strng{authornamehash}{8f5acff431aef40976a1206339cdaa47}
+      \strng{authorfullhash}{8f5acff431aef40976a1206339cdaa47}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cryptography}
+      \field{number}{2}
+      \field{title}{Localized State-Change Consensus in Immense and Highly Dynamic Environments}
+      \field{volume}{6}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{23}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2410-387X/6/2/23
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2410-387X/6/2/23
+      \endverb
+    \endentry
+    \entry{zamir2021information}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=dc67d79b84dc516d1e01070512a2d4b9}{%
+           family={Zamir},
+           familyi={Z\bibinitperiod},
+           given={Linir},
+           giveni={L\bibinitperiod}}}%
+        {{hash=356725914d00c494bfed52b208e0b9b5}{%
+           family={Nojoumian},
+           familyi={N\bibinitperiod},
+           given={Mehrdad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{8f5acff431aef40976a1206339cdaa47}
+      \strng{fullhash}{8f5acff431aef40976a1206339cdaa47}
+      \strng{bibnamehash}{8f5acff431aef40976a1206339cdaa47}
+      \strng{authorbibnamehash}{8f5acff431aef40976a1206339cdaa47}
+      \strng{authornamehash}{8f5acff431aef40976a1206339cdaa47}
+      \strng{authorfullhash}{8f5acff431aef40976a1206339cdaa47}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Future Technologies Conference}
+      \field{title}{Information sharing in the presence of adversarial nodes using raft}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{159\bibrangedash 172}
+      \range{pages}{14}
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/9651979
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/9651979
+      \endverb
+    \endentry
+    \entry{zamir2021israft}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=dc67d79b84dc516d1e01070512a2d4b9}{%
+           family={Zamir},
+           familyi={Z\bibinitperiod},
+           given={Linir},
+           giveni={L\bibinitperiod}}}%
+        {{hash=480e09cd3a6a9ef82e7c0df065ebb199}{%
+           family={Shaan},
+           familyi={S\bibinitperiod},
+           given={Aman},
+           giveni={A\bibinitperiod}}}%
+        {{hash=356725914d00c494bfed52b208e0b9b5}{%
+           family={Nojoumian},
+           familyi={N\bibinitperiod},
+           given={Mehrdad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{261e5eaf68d04e0ee201759295145258}
+      \strng{fullhash}{261e5eaf68d04e0ee201759295145258}
+      \strng{bibnamehash}{261e5eaf68d04e0ee201759295145258}
+      \strng{authorbibnamehash}{261e5eaf68d04e0ee201759295145258}
+      \strng{authornamehash}{261e5eaf68d04e0ee201759295145258}
+      \strng{authorfullhash}{261e5eaf68d04e0ee201759295145258}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 IEEE 29th International Conference on Network Protocols (ICNP)}
+      \field{title}{ISRaft consensus algorithm for autonomous units}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{urlraw}
+      \verb https://link.springer.com/chapter/10.1007/978-3-030-89912-7_13
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/chapter/10.1007/978-3-030-89912-7_13
+      \endverb
+    \endentry
+    \entry{zamir2019application}{article}{}
+      \name{author}{1}{}{%
+        {{hash=dc67d79b84dc516d1e01070512a2d4b9}{%
+           family={Zamir},
+           familyi={Z\bibinitperiod},
+           given={Linir},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc67d79b84dc516d1e01070512a2d4b9}
+      \strng{fullhash}{dc67d79b84dc516d1e01070512a2d4b9}
+      \strng{bibnamehash}{dc67d79b84dc516d1e01070512a2d4b9}
+      \strng{authorbibnamehash}{dc67d79b84dc516d1e01070512a2d4b9}
+      \strng{authornamehash}{dc67d79b84dc516d1e01070512a2d4b9}
+      \strng{authorfullhash}{dc67d79b84dc516d1e01070512a2d4b9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Florida Atlantic University, Masters Thesis}
+      \field{title}{Application of Blockchain Network for the Use of Information Sharing}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{2}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{zamirroadmap}{article}{}
+      \name{author}{3}{}{%
+        {{hash=dc76422bd1927c61b737d8a76a094aa0}{%
+           family={Shaller},
+           familyi={S\bibinitperiod},
+           given={Ari},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dc67d79b84dc516d1e01070512a2d4b9}{%
+           family={Zamir},
+           familyi={Z\bibinitperiod},
+           given={Linir},
+           giveni={L\bibinitperiod}}}%
+        {{hash=356725914d00c494bfed52b208e0b9b5}{%
+           family={Nojoumian},
+           familyi={N\bibinitperiod},
+           given={Mehrdad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{ce29e814046e6395cc09e127a9ea4f39}
+      \strng{fullhash}{ce29e814046e6395cc09e127a9ea4f39}
+      \strng{bibnamehash}{ce29e814046e6395cc09e127a9ea4f39}
+      \strng{authorbibnamehash}{ce29e814046e6395cc09e127a9ea4f39}
+      \strng{authornamehash}{ce29e814046e6395cc09e127a9ea4f39}
+      \strng{authorfullhash}{ce29e814046e6395cc09e127a9ea4f39}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cryptography}
+      \field{title}{Roadmap of Post-Quantum Cryptography Standardization: Side-Channel Attacks and Countermeasures}
+      \field{volume}{7}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+    \entry{zamirconsensussurvey}{article}{}
+      \name{author}{1}{}{%
+        {{hash=dc67d79b84dc516d1e01070512a2d4b9}{%
+           family={Zamir},
+           familyi={Z\bibinitperiod},
+           given={Linir},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{dc67d79b84dc516d1e01070512a2d4b9}
+      \strng{fullhash}{dc67d79b84dc516d1e01070512a2d4b9}
+      \strng{bibnamehash}{dc67d79b84dc516d1e01070512a2d4b9}
+      \strng{authorbibnamehash}{dc67d79b84dc516d1e01070512a2d4b9}
+      \strng{authornamehash}{dc67d79b84dc516d1e01070512a2d4b9}
+      \strng{authorfullhash}{dc67d79b84dc516d1e01070512a2d4b9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Consensus Algorithms - A Comprehensive Survey}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+    \entry{zamirmining}{article}{}
+      \name{author}{3}{}{%
+        {{hash=dc67d79b84dc516d1e01070512a2d4b9}{%
+           family={Zamir},
+           familyi={Z\bibinitperiod},
+           given={Linir},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e5cb0400b7a138416dc17d0916fa9d15}{%
+           family={Pourtahmasbi},
+           familyi={P\bibinitperiod},
+           given={Pouya},
+           giveni={P\bibinitperiod}}}%
+        {{hash=356725914d00c494bfed52b208e0b9b5}{%
+           family={Nojoumian},
+           familyi={N\bibinitperiod},
+           given={Mehrdad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{06ab60e9d6fda98f3dfa255ddff91018}
+      \strng{fullhash}{06ab60e9d6fda98f3dfa255ddff91018}
+      \strng{bibnamehash}{06ab60e9d6fda98f3dfa255ddff91018}
+      \strng{authorbibnamehash}{06ab60e9d6fda98f3dfa255ddff91018}
+      \strng{authornamehash}{06ab60e9d6fda98f3dfa255ddff91018}
+      \strng{authorfullhash}{06ab60e9d6fda98f3dfa255ddff91018}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Survey of Countermeasures for Well Known Blockchain Mining Attacks}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
